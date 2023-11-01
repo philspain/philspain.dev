@@ -1,0 +1,85 @@
+/* dom */
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
+
+main {
+    height: calc(100% - 12em);
+    width: calc(100% - 12em);
+    padding: 2em;
+}
+
+h1 {
+    text-align: left;
+    margin: 0;
+}
+
+/* ids */
+#background {
+    width: calc(100% + 3.125em);
+    height: calc(100% + 3.125em);
+    position: absolute;
+    top: -1.5625em;
+    left: -1.5625em;
+    z-index: -1;
+}
+
+/* classes */
+.expand {
+    flex-grow: 1 1 1;
+}
+
+/* fonts */
+.font-poppins { 
+    font-family: 'Poppins', sans-serif;
+}
+
+/* colors */
+.white {
+    color: white;
+}
+
+.black {
+    color: black;
+}
+
+.lilac {
+    color: #d6dcf0;
+}
+
+.blue-gray {
+    color: #8D949C;
+}
+
+.white-background {
+    background-color: white;
+}
+
+.eggshell-background {
+    background-color: rgb(240, 234, 214);
+}
+
+/* borders */
+.border-lilac {
+    border-color: #d6dcf0;
+}
+
+.border-blue-gray {
+    border-color: #8D949C;
+}
+
+.border-5px {
+    border-width: 0.3125em;
+}
+
+.border-solid {
+    border-style: solid;
+}
